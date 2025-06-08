@@ -3,9 +3,9 @@
 // Estructura con dos colecciones: 'logicos' y 'relacionales'
 
 
-// =======================
+
 //  Consultas sobre la colección 'logicos'
-// =======================
+
 
 // Ejemplo → Buscar todos los operadores lógicos
 // Sintaxis:
@@ -31,9 +31,9 @@ db.logicos.find({ titulo: /^\$n/ });
 // Sintaxis:
 db.logicos.countDocuments({});
 
-// =======================
+
 // Consultas sobre la colección 'relacionales'
-// =======================
+
 
 // Ejemplo → Buscar todos los operadores relacionales
 // Sintaxis:
